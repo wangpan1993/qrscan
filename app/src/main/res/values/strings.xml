@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">扫一扫</string>
+    <string name="digits_01">abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

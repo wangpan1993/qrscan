@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="them_color">#0090f7</color>
+
+    <color name="bg_basetitle">#FF6800</color>
+    <color name="them_text">#0090f7</color>
+    <!-- 界面的背景颜色 -->
+    <color name="bg_gray">#F2F2F2</color>
+
+    <color name="bg_red_x">#E380BB</color>
+
+    <!-- 线的颜色 -->
+    <color name="line_divider">#CCCCCC</color>
+    <!-- 主页颜色 -->
+    <color name="transparent">#00000000</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="line_green">#5BBB72</color>
+
+    <!--灰色字体-->
+    <color name="gray_small">#777777</color>
+    <color name="gray_small_d">#ff404040</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <!-- QRCode scanner color end -->
+
+</resources>

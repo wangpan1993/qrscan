@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+//使用greendao
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.yssh.scan"
+        minSdkVersion 16
+        targetSdkVersion 16
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi"
+        }
+    }
+    sourceSets {
+        main {
+            jni.srcDirs = []
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+
+//greendao配置
+greendao{
+    schemaVersion 1
+    targetGenDir 'src/main/java'
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.lzy.net:okgo:3.0.4'
+    implementation 'com.lzy.net:okserver:2.0.5'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    //数据库管理工具
+    implementation 'org.greenrobot:greendao:3.2.2'
+}

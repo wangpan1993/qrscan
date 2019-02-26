@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+   <!-- 动态布局id -->
+   
+   <!-- 图片title -->
+   <item name="imagetitleicon" type="id"/>
+   <item name="imagetitlemore" type="id"/>
+   
+   <!-- 轮播广告 -->
+   <item name="autoScrollViewPager" type="id"/>
+   <item name="circlePageIndicator" type="id"/>
+   
+   <!-- 站内信 -->
+    <item name="imageInnerLetter" type="id"/>
+   
+   
+   
+   <item name="gv1002" type="id"/>
+   
+   <item name="layout1003_ivTodayOilPrice" type="id"/>
+   <item name="layout1003_recyclerview" type="id"/>
+   <item name="layout1003_ivLoadProgress" type="id"/>
+   <item name="layout1003_tvLoadFaileHint" type="id"/>
+   <item name="gv1004" type="id"/>
+   
+   <item name="layout1005_ivMark" type="id"/>
+   
+   <item name="layout1006_pb" type="id"/>
+   <item name="layout1006_myWebView" type="id"/>
+   <item name="layout1006_tvWebLoadFaileHint" type="id"/>
+   
+   <item name="layout1007_outer" type="id"/>
+   <item name="layout1007_icCapture" type="id"/>
+   <item name="layout1007_etSearchKey" type="id"/>
+   <item name="layout1007_ivSearch" type="id"/>
+   <item name="layout1007_ivClear" type="id"/>
+   <item name="layout1007_ivMyMsg" type="id"/>
+   <item name="layout1007_tvMsgNum" type="id"/>
+   <item name="layout1007_tvCity" type="id"/>
+   <item name="layout1007_tvTitle" type="id"/>
+   <item name="layout1007_ivCapture78" type="id"/>
+   <item name="layout1007_tvname78" type="id"/>
+   <item name="layout1007_llCapture78" type="id"/>
+   <item name="layout1007_llCapture79" type="id"/>
+   
+   <item name="gv1008" type="id"/>
+   <item name="gv1009" type="id"/>
+   <item name="layout1010_adapterViewFlip" type="id"/>
+   <item name="rv1011" type="id"/>
+   <item name="rv1012" type="id"/>
+   <item name="rv1013" type="id"/>
+   
+   <item name="layout1014_rlLeft" type="id"/>
+   <item name="layout1014_ivIcon" type="id"/>
+   <item name="layout1014_tvTitle" type="id"/>
+   <item name="layout1014_tvSubTitle" type="id"/>
+   <item name="layout1014_tvPromotion" type="id"/>   <item name="rv1014"  type="id"/>
+   
+   <item name="rv1015" type="id"/>
+   <item name="rv1016" type="id"/>
+   
+   <item name="layout1017_llOuter" type="id"/>
+   <item name="layout1017_ivTitle" type="id"/>
+   <item name="layout1017_ivMore" type="id"/>
+   
+   <item name="rv1018" type="id"/>
+   <item name="gv1019" type="id"/>
+   <item name="gv1021" type="id"/>
+   <item name="gv1022" type="id"/>
+   <item name="gv1023" type="id"/>
+   <item name="gv1024" type="id"/>
+   <item name="gv1025" type="id"/>
+   <item name="rv1028" type="id"/>
+   <item name="rv1029" type="id"/>
+   <item name="rv1031" type="id"/>
+   <item name="rv1032" type="id"/>
+   <item name="rv1033" type="id"/>
+   
+   
+   <!-- 扫码的 -->
+   <item type="id" name="auto_focus"/>
+  <item type="id" name="decode"/>
+  <item type="id" name="decode_failed"/>
+  <item type="id" name="decode_succeeded"/>
+  <item type="id" name="encode_failed"/>
+  <item type="id" name="encode_succeeded"/>
+  <item type="id" name="launch_product_query"/>
+  <item type="id" name="quit"/>
+  <item type="id" name="restart_preview"/>
+  <item type="id" name="return_scan_result"/>
+  <item type="id" name="search_book_contents_failed"/>
+  <item type="id" name="search_book_contents_succeeded"/>
+  
+  <item name="statusbarutil_fake_status_bar_view" type="id"/>
+    <item name="statusbarutil_translucent_view" type="id"/>
+   
+    
+</resources>
